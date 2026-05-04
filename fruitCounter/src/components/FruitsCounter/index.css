@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.outerContainer {
+  background-color: #ffd569;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.innerContainer {
+  background-color: white;
+  height: 500px;
+  width: 800px;
+  border-radius: 9px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+img {
+  height: 190px;
+  width: 190px;
+}
+.pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+span {
+  color: #ffd569;
+}
+.picin {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  height: 36px;
+  width: 120px;
+  border-radius: 3px;
+  font-size: small;
+  border-color: #007bff;
+  margin-left: 30px;
+  margin-top: 30px;
+}

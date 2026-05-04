@@ -1,0 +1,79 @@
+.card-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+}
+
+/* Write your code here. */
+.card-1,
+.card-2,
+.card-3 {
+  display: flex;
+  color: #326a9d;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  height: 200px; /* Gives the card a fixed size */
+}
+
+li {
+  border: 1px solid #cbd5e1; /* This adds that light grey box */
+  border-radius: 12px; /* This rounds the corners */
+  padding: 40px; /* This keeps the text away from the edges */
+  margin-bottom: 24px; /* This puts space between the boxes */
+  height: 250px; /* Gives the box its shape */
+}
+
+.show-more-btn {
+  height: 40px; /* Try using px for precision */
+  width: 120px;
+  padding: 10px 20px; /* Padding is usually better than fixed height */
+  font-size: 14px; /* This makes the text inside bigger */
+  color: #326a9d;
+  border-color: #326a9d;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+.card-3 .content-container {
+  align-items: center;
+}
+
+/* For Card 1, you'd want them on the left */
+.card-1 .content-container {
+  align-items: flex-start;
+}
+/* This ONLY affects the 3rd card */
+.card-3 .content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-2 .content-container {
+  padding-left: 170px;
+}
+
+h1 {
+  font-weight: bold;
+}

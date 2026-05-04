@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+img {
+  height: 300px;
+  width: 500px;
+}
+h1,.head1 {
+  font-style: italic;
+  font-weight: 500;
+}
+.subhead {
+  font-size: 26px;
+  font-family: 'ROBOTO';
+  font-weight: 500;
+}
+.secp {
+  color: #cbd5e1;
+}
+
+button {
+  height: 30px;
+  padding: 5px;
+  width: 80px;
+  border-radius: 4px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.btncontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+  width: auto;
+}
+.btn1 {
+  background-color: #0b69ff;
+  border-color: #0b69ff;
+  color: white;
+  margin-right: 20px;
+}
+.btn2 {
+  background-color: transparent;
+  color: #94a3b8;
+  border-color: #94a3b8;
+}
